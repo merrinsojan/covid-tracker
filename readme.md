@@ -18,16 +18,26 @@ Clone the project repository from GitHub:
 git clone https://github.com/merrinsojan/covid-tracker
 ```
    
-### Step 2: Compile 
+### Step 2: navigate to folder 
+Cd into the folder having pom.xml:
+
+```bash
+cd covid-tracker
+```
+
+### Step 3: Compile 
 Compile the checked out code:
 
 ```bash
 mvn compile
 ```
    
-### Step 3: Run
+### Step 4: Run
 Run the test suite using: 
 
 ```bash
 mvn test
 ```
+
+
+Results of the test will can be observed in the console output. Details of test output available in test-output folder
